@@ -5,7 +5,7 @@
 	<creationDate>Juin 2021</creationDate>
 	<author>Joomla! Project</author>
 	<copyright>Copyright (C) 2005 - 2021 Open Source Matters.</copyright>
-	<license>GNU General Public License version 2 ou version ultérieure ; Voir LICENSE.txt</license>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<files>
 		<filename>joomla.ini</filename>
 	</files>
