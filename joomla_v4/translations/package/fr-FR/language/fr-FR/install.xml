@@ -8,7 +8,7 @@
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>www.joomla.fr</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License version 2 ou version ultérieure ; Voir LICENSE.txt</license>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>fr-FR site language</description>
 	<files>
 		<folder>/</folder>
