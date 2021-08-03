@@ -76,8 +76,8 @@ files:
       - /extension/packagerurl
       - /extension/description
       - /extension/files/folder
-      - /extension/files/folder/@id
-      - /extension/updateservers/server/@name
+      - /extension/files/folder[@id]
+      - /extension/updateservers/server[@name]
   - source: /joomla_v4/source/language/en-GB/install.xml
     dest: /JoomlaV4/Package/language/en-GB/install.xml
     translation: /joomla_v4/translations/package/%locale%/language/%locale%/install.xml
