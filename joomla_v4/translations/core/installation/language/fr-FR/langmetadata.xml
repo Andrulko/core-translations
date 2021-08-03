@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="installation">
-	<name>French (France)</name>
-	<version>4.0.0-rc2.3</version>
-	<creationDate>Juin 2021</creationDate>
-	<author>French translation team joomla.fr</author>
-	<copyright>Copyright (C) 2005 - 2021 Open Source Matters.</copyright>
+	<name>English (United Kingdom)</name>
+	<version>4.0.0</version>
+	<creationDate>October 2019</creationDate>
+	<author>Joomla! Project</author>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<files>
 		<filename>joomla.ini</filename>
 	</files>
 	<metadata>
-		<name>French (fr-FR)</name>
-		<nativeName>Français (France)</nativeName>
-		<tag>fr-FR</tag>
-		<rtl>1</rtl>
+		<name>English (en-GB)</name>
+		<nativeName>English (United Kingdom)</nativeName>
+		<tag>en-GB</tag>
+		<rtl>0</rtl>
 	</metadata>
 	<params/>
 </metafile>
