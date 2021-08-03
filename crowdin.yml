@@ -1,0 +1,158 @@
+files:
+  - source: /joomla_v4/source/installation/language/en-GB/langmetadata.xml
+    dest: /JoomlaV4/Installer/language/en-GB/langmetadata.xml
+    translation: /joomla_v4/translations/core/installation/language/%locale%/langmetadata.xml
+    update_option: update_as_unapproved
+    content_segmentation: 0
+    type: xml
+    translatable_elements:
+      - /metafile/name
+      - /metafile/version
+      - /metafile/creationDate
+      - /metafile/author
+      - /metafile/copyright
+      - /metafile/metadata/name
+      - /metafile/metadata/nativeName
+      - /metafile/metadata/tag
+      - /metafile/metadata/rtl
+  - source: /joomla_v4/source/administrator/language/en-GB/install.xml
+    dest: /JoomlaV4/Package/administrator/language/en-GB/install.xml
+    translation: /joomla_v4/translations/package/%locale%/administrator/language/%locale%/install.xml
+    update_option: update_as_unapproved
+    content_segmentation: 0
+    type: xml
+    translatable_elements:
+      - /extension/name
+      - /extension/tag
+      - /extension/version
+      - /extension/creationDate
+      - /extension/author
+      - /extension/authorEmail
+      - /extension/authorUrl
+      - /extension/copyright
+      - /extension/description
+  - source: /joomla_v4/source/administrator/language/en-GB/langmetadata.xml
+    dest: /JoomlaV4/Package/administrator/language/en-GB/langmetadata.xml
+    translation: /joomla_v4/translations/package/%locale%/administrator/language/%locale%/langmetadata.xml
+    update_option: update_as_unapproved
+    content_segmentation: 0
+    type: xml
+    translatable_elements:
+      - /metafile/name
+      - /metafile/version
+      - /metafile/creationDate
+      - /metafile/author
+      - /metafile/authorEmail
+      - /metafile/authorUrl
+      - /metafile/copyright
+      - /metafile/description
+      - /metafile/metadata/name
+      - /metafile/metadata/nativeName
+      - /metafile/metadata/tag
+      - /metafile/metadata/rtl
+      - /metafile/metadata/locale
+      - /metafile/metadata/firstDay
+      - /metafile/metadata/weekEnd
+      - /metafile/metadata/calendar
+  - source: /joomla_v4/source/administrator/manifests/packages/pkg_en-GB.xml
+    dest: /JoomlaV4/Package/pkg_en-GB.xml
+    translation: /joomla_v4/translations/package/%locale%/pkg_%locale%.xml
+    update_option: update_as_unapproved
+    translate_content: 1
+    translate_attributes: 1
+    content_segmentation: 0
+    type: xml
+    translatable_elements:
+      - /extension/name
+      - /extension/packagename
+      - /extension/version
+      - /extension/creationDate
+      - /extension/author
+      - /extension/authorEmail
+      - /extension/authorUrl
+      - /extension/copyright
+      - /extension/url
+      - /extension/packager
+      - /extension/packagerurl
+      - /extension/description
+      - /extension/files/folder
+      - /extension/files/folder/@id
+      - /extension/updateservers/server/@name
+  - source: /joomla_v4/source/language/en-GB/install.xml
+    dest: /JoomlaV4/Package/language/en-GB/install.xml
+    translation: /joomla_v4/translations/package/%locale%/language/%locale%/install.xml
+    update_option: update_as_unapproved
+    content_segmentation: 0
+    type: xml
+    translatable_elements:
+      - /extension/name
+      - /extension/tag
+      - /extension/version
+      - /extension/creationDate
+      - /extension/author
+      - /extension/authorEmail
+      - /extension/authorUrl
+      - /extension/copyright
+      - /extension/description
+  - source: /joomla_v4/source/language/en-GB/langmetadata.xml
+    dest: /JoomlaV4/Package/language/en-GB/langmetadata.xml
+    translation: /joomla_v4/translations/package/%locale%/language/%locale%/langmetadata.xml
+    update_option: update_as_unapproved
+    content_segmentation: 0
+    type: xml
+    translatable_elements:
+      - /metafile/name
+      - /metafile/version
+      - /metafile/creationDate
+      - /metafile/author
+      - /metafile/authorEmail
+      - /metafile/authorUrl
+      - /metafile/copyright
+      - /metafile/description
+      - /metafile/metadata/name
+      - /metafile/metadata/nativeName
+      - /metafile/metadata/tag
+      - /metafile/metadata/rtl
+      - /metafile/metadata/locale
+      - /metafile/metadata/firstDay
+      - /metafile/metadata/weekEnd
+      - /metafile/metadata/calendar
+  - source: /joomla_v4/source/api/language/en-GB/install.xml
+    dest: /JoomlaV4/Package/api/language/en-GB/install.xml
+    translation: /joomla_v4/translations/package/%locale%/api/language/%locale%/install.xml
+    update_option: update_as_unapproved
+    content_segmentation: 0
+    type: xml
+    translatable_elements:
+      - /extension/name
+      - /extension/tag
+      - /extension/version
+      - /extension/creationDate
+      - /extension/author
+      - /extension/authorEmail
+      - /extension/authorUrl
+      - /extension/copyright
+      - /extension/description
+  - source: /joomla_v4/source/api/language/en-GB/langmetadata.xml
+    dest: /JoomlaV4/Package/api/language/en-GB/langmetadata.xml
+    translation: /joomla_v4/translations/package/%locale%/api/language/%locale%/langmetadata.xml
+    update_option: update_as_unapproved
+    content_segmentation: 0
+    type: xml
+    translatable_elements:
+      - /metafile/name
+      - /metafile/version
+      - /metafile/creationDate
+      - /metafile/author
+      - /metafile/authorEmail
+      - /metafile/authorUrl
+      - /metafile/copyright
+      - /metafile/description
+      - /metafile/metadata/name
+      - /metafile/metadata/nativeName
+      - /metafile/metadata/tag
+      - /metafile/metadata/rtl
+      - /metafile/metadata/locale
+      - /metafile/metadata/firstDay
+      - /metafile/metadata/weekEnd
+      - /metafile/metadata/calendar
