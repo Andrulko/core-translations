@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<extension type="package" version="3.9" method="upgrade">
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
 	<name>German (Germany) Language Pack</name>
 	<packagename>de-DE</packagename>
 	<version>4.0.0-rc4.1</version>
@@ -8,10 +8,10 @@
 	<authorEmail>team@jgerman.de</authorEmail>
 	<authorUrl>https://www.jgerman.de</authorUrl>
 	<copyright>(C) 2008 - 2021 J!German. All rights reserved.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<url />
-	<packager />
-	<packagerurl />
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Project</packager>
+	<packagerurl>www.joomla.org</packagerurl>
 	<description><![CDATA[
 	<h2>Deutsches Sprachpaket für Joomla! 4.0.0-rc4 von <a title="J!German" href="https://www.jgerman.de" target="_blank">J!German</a></h2>
         <h3><span style="color: #008000;">Übersetzungsversion: 4.0.0-rc4.1</span></h3>
@@ -20,15 +20,17 @@
         <p><span style="text-decoration: underline;">Aktualisierung:</span><br />Es sind keine weiteren Schritte erforderlich.</p>
 	<p><span style="text-decoration: underline;">Fehler:</span><br />Übersetzungsfehler, Tippfehler oder Anregungen können gerne auf GitHub im <a href="https://github.com/joomlagerman/joomla" target="_blank" title="https://github.com/joomlagerman/joomla">joomlagerman/joomla</a> Repository gemeldet werden.</p>
         <p><span style="text-decoration: underline;">Hinweis:</span><br />Dieses Paket unterstützt die Joomla! eigene <a title="Joomla-Aktualisierungsfunktion" href="index.php?option=com_installer&amp;view=update" target="_blank">Aktualisierungsfunktion</a>.</p>
-	]]>
-	</description>
+	
+	]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<file type="language" client="site" id="de-DE">site_de-DE.zip</file>
-		<file type="language" client="administrator" id="de-DE">admin_de-DE.zip</file>
-		<file type="language" client="api" id="de-DE">api_de-DE.zip</file>
+		<folder type="language" client="site" id="en-GB">language/en-GB</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/en-GB</folder>
+		<folder type="language" client="api" id="en-GB">api/language/en-GB</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations">https://update.joomla.org/language/translationlist_4.xml</server>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>
